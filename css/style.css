@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
 
 body{
-    background-color: #fdb93c;
+    font-family: 'Courier New', Courier, monospaces;
+    font-size: 15px;
+    Line-height: 24px;
 }
 
 html, body{
     margin: 0;
     padding: 0;
 }
+
+p,ul, ol{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+p.cap{
+    font-size: 15px;
+    color: grey;
+    font-style: italic;
+    margin: 0;
+}
 header{
     text-align: center;
     padding: 20px;
+    background-color: rgb(240, 169, 38);
 }
 
 header .pfp{
@@ -24,11 +39,29 @@ header .pfp{
     margin: 0 auto;
 }
 
-header h1 {
+h1 {
     font-family: "Lexend Exa", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     font-size: 50px; 
-    margin: 20px 0 20px 0;
+    margin: 30px 0 20px 0;
+}
+
+h2{
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px; 
+    margin: 40px 0 10px 0;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+main img{
+    max-width: 100%;
 }
