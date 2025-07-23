@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
 body{
     background-color: #fdb93c;
 }
@@ -8,8 +10,25 @@ html, body{
 }
 header{
     text-align: center;
-    background-color:#fdb93c;
     padding: 20px;
-    width: 20px;
-    height: 20px;
+}
+
+header .pfp{
+    width: 300px;
+    height: 280px;
+    border: 10px solid white;
+    border-radius: 50%; 
+    background-image: url("./../img/Sakomoto-pfp.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 50px; 
+    margin: 20px 0 20px 0;
 }
